@@ -1,0 +1,23 @@
+Instruction to compile:
+1) R studio environment is required to execute the code.
+2) Below mentioned packages needs to be installed to execute the code.
+   (a) forecast
+   (b) Matrix
+   (c) TTR
+   (d) dplyr
+   (e) tcltk
+3) Copy the R Script file “datamining-project-ARIMA.R” in the working folder.
+4) On R console Navigate to that folder
+5) Execute source('~<PATH-OF-THE-FILE>/datamining-project-ARIMA.R')
+Suppose the file is at path : Documents/rstudio_workspace/data-mining-project/datamining-auto-arima.R
+Then execute below command :
+source('~/Documents/rstudio_workspace/data-mining-project/datamining-project.R’)
+6) On executing the code, a pop up window will appear to select the input file. Select the input file - “inputfile.txt” from the required path.
+7) The forecasted output will be redirected to output.txt.
+
+Format of output file: As per the guidelines mentioned in the requirement specification document
+Row 1: Prediction for the overall sale quantity of the 100 key products for each day of the four weeks 
+
+Rest of the row: prediction for the sale quantity for each key product for each day of the four weeks
+
+Column 1: Contains the details of Product ID. First product ID is zero.
